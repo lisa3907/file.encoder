@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // 어셈블리의 일반 정보는 다음 특성 집합을 통해 제어됩니다.
 // 어셈블리와 관련된 정보를 수정하려면
 // 이 특성 값을 변경하십시오.
-[assembly: AssemblyTitle("uBizSoft.PRD.FileEncoder.V40")]
-[assembly: AssemblyDescription("FileEncoder Service Provider V40")]
+[assembly: AssemblyTitle("FileEncoder")]
+[assembly: AssemblyDescription("FileEncoder")]
 [assembly: AssemblyConfiguration("debug")]
-[assembly: AssemblyCompany("uBizSoft - http://www.ubizsoft.com")]
-[assembly: AssemblyProduct("uBizSoft_BizFlow_Services")]
-[assembly: AssemblyCopyright("(C) 2001~2007 uBizSoft Corporation. All rights Reserved")]
-[assembly: AssemblyTrademark("uBizSoft_BizFlow")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("(C) 2001~2014 All rights Reserved")]
+[assembly: AssemblyTrademark("FileEncoder")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible을 false로 설정하면 이 어셈블리의 형식이 COM 구성 요소에 

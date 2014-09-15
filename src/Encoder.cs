@@ -4,7 +4,7 @@ using System.Text;
 using System.Reflection;
 using System.Collections;
 
-namespace uBizSoft.PRD.FileEncoder
+namespace FileEncoder
 {
     /// <summary>
     /// Class1에 대한 요약 설명입니다.
@@ -27,7 +27,7 @@ namespace uBizSoft.PRD.FileEncoder
             {
                 if (m_baseDirectory == null)
                     m_baseDirectory = System.Environment.CurrentDirectory;
-                
+
                 return m_baseDirectory;
             }
             set
@@ -44,7 +44,7 @@ namespace uBizSoft.PRD.FileEncoder
 
         private Encoding SourceEncoding = Encoding.Default;
         private Encoding TargetEncoding = Encoding.UTF8;
- 
+
         //-------------------------------------------------------------------------------------------------------------------------//
         //
         //-------------------------------------------------------------------------------------------------------------------------//
@@ -248,8 +248,8 @@ namespace uBizSoft.PRD.FileEncoder
         public void WriteTitle()
         {
             Console.WriteLine();
-            Console.WriteLine(String.Format("uBizSoft(R) Text-File-Encoding-Translator (Version {0})", Assembly.GetExecutingAssembly().GetName().Version));
-            Console.WriteLine("Copyright (C) uBizSoft Corporation 2001-2007. All rights reserved.");
+            Console.WriteLine(String.Format("Text-File-Encoding-Translator (Version {0})", Assembly.GetExecutingAssembly().GetName().Version));
+            Console.WriteLine("Copyright (C) 2001-2014. All rights reserved.");
             Console.WriteLine();
         }
 

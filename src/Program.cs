@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace uBizSoft.PRD.FileEncoder
+namespace FileEncoder
 {
     class Program
     {
