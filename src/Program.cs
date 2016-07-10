@@ -10,7 +10,7 @@ namespace FileEncoder
         [STAThread]
         public static void Main(string[] args)
         {
-            Encoder _encoder = new Encoder();
+            var _encoder = new Encoder();
 
             _encoder.WriteTitle();
             if (args.Length < 1 || args.Length > 5)
